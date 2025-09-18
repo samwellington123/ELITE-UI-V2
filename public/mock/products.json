@@ -1,0 +1,110 @@
+[
+  {
+    "id": "PROD001",
+    "sku": "TSHIRT-18500-BLACK",
+    "name": "Premium T-Shirt - Black",
+    "brand": "Gildan",
+    "category": "apparel",
+    "description": "Premium cotton t-shirt with custom logo decoration. Perfect for corporate events, team uniforms, and promotional campaigns.",
+    "baseImageUrl": "https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "pricing": [
+      {"minQty": 1, "maxQty": 9, "price": 29.99},
+      {"minQty": 10, "maxQty": 49, "price": 26.99},
+      {"minQty": 50, "maxQty": 99, "price": 23.99},
+      {"minQty": 100, "maxQty": null, "price": 19.99}
+    ],
+    "views": ["front", "back", "left", "right"],
+    "specSheetUrl": null,
+    "calibrated": false
+  },
+  {
+    "id": "PROD002",
+    "sku": "POLO-8500-NAVY",
+    "name": "Classic Polo Shirt - Navy",
+    "brand": "Port Authority",
+    "category": "apparel",
+    "description": "Professional polo shirt ideal for corporate uniforms and business casual wear.",
+    "baseImageUrl": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "pricing": [
+      {"minQty": 1, "maxQty": 9, "price": 34.99},
+      {"minQty": 10, "maxQty": 49, "price": 31.99},
+      {"minQty": 50, "maxQty": 99, "price": 28.99},
+      {"minQty": 100, "maxQty": null, "price": 24.99}
+    ],
+    "views": ["front", "back", "left", "right"],
+    "specSheetUrl": null,
+    "calibrated": true
+  },
+  {
+    "id": "PROD003",
+    "sku": "HOODIE-18500-GRAY",
+    "name": "Pullover Hoodie - Heather Gray",
+    "brand": "Gildan",
+    "category": "apparel",
+    "description": "Comfortable pullover hoodie perfect for casual wear and team merchandise.",
+    "baseImageUrl": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "pricing": [
+      {"minQty": 1, "maxQty": 9, "price": 44.99},
+      {"minQty": 10, "maxQty": 49, "price": 41.99},
+      {"minQty": 50, "maxQty": 99, "price": 38.99},
+      {"minQty": 100, "maxQty": null, "price": 34.99}
+    ],
+    "views": ["front", "back", "left", "right"],
+    "specSheetUrl": null,
+    "calibrated": false
+  },
+  {
+    "id": "PROD004",
+    "sku": "HAT-CP80-BLACK",
+    "name": "Structured Baseball Cap - Black",
+    "brand": "Port & Company",
+    "category": "headwear",
+    "description": "Classic structured baseball cap with adjustable strap. Great for embroidered logos.",
+    "baseImageUrl": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "pricing": [
+      {"minQty": 1, "maxQty": 9, "price": 19.99},
+      {"minQty": 10, "maxQty": 49, "price": 17.99},
+      {"minQty": 50, "maxQty": 99, "price": 15.99},
+      {"minQty": 100, "maxQty": null, "price": 12.99}
+    ],
+    "views": ["front", "back", "left", "right"],
+    "specSheetUrl": null,
+    "calibrated": true
+  },
+  {
+    "id": "PROD005",
+    "sku": "BAG-BG401-NAVY",
+    "name": "Canvas Tote Bag - Navy",
+    "brand": "Liberty Bags",
+    "category": "bags",
+    "description": "Durable canvas tote bag perfect for promotional events and corporate gifts.",
+    "baseImageUrl": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "pricing": [
+      {"minQty": 1, "maxQty": 9, "price": 14.99},
+      {"minQty": 10, "maxQty": 49, "price": 12.99},
+      {"minQty": 50, "maxQty": 99, "price": 10.99},
+      {"minQty": 100, "maxQty": null, "price": 8.99}
+    ],
+    "views": ["front", "back"],
+    "specSheetUrl": null,
+    "calibrated": false
+  },
+  {
+    "id": "PROD006",
+    "sku": "JACKET-J317-BLACK",
+    "name": "Soft Shell Jacket - Black",
+    "brand": "Port Authority",
+    "category": "outerwear",
+    "description": "Weather-resistant soft shell jacket ideal for corporate uniforms and outdoor events.",
+    "baseImageUrl": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "pricing": [
+      {"minQty": 1, "maxQty": 9, "price": 64.99},
+      {"minQty": 10, "maxQty": 49, "price": 59.99},
+      {"minQty": 50, "maxQty": 99, "price": 54.99},
+      {"minQty": 100, "maxQty": null, "price": 49.99}
+    ],
+    "views": ["front", "back", "left", "right"],
+    "specSheetUrl": null,
+    "calibrated": true
+  }
+]
