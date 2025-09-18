@@ -82,6 +82,14 @@ const url = {
     const url = new URL(window.location);
     url.searchParams.delete(key);
     window.history.replaceState({}, '', url);
+  },
+  
+  // Smooth scroll to element
+  scrollTo: (elementId) => {
+    const element = document.getElementById(elementId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 };
 

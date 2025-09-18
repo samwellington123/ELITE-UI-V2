@@ -16,9 +16,28 @@ class Quote {
   async init() {
     await this.loadProducts();
     await this.loadExistingQuote();
+    this.handleQuickAdd(); // Handle quick add from catalog/product pages
     this.render();
     this.bindEvents();
     this.updateURL();
+  }
+
+  handleQuickAdd() {
+    const params = utils.url.getParams();
+    if (params.quickAdd) {
+      const productId = params.quickAdd;
+      const quantity = parseInt(params.quantity) || 1;
+      
+      // Add product to quote automatically
+      setTimeout(() => {
+        this.updateProductQuantity(productId, quantity);
+        utils.toast.success(`Added ${quantity} items to your quote!`);
+        
+        // Clean up URL
+        utils.url.removeParam('quickAdd');
+        utils.url.removeParam('quantity');
+      }, 500);
+    }
   }
 
   async loadProducts() {

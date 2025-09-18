@@ -25,6 +25,8 @@ class Header {
               <a href="/contact" class="nav-link ${this.isActive('/contact') ? 'active' : ''}">Contact</a>
               <a href="/quote" class="btn btn-primary">Build Your Quote</a>
             </nav>
+            
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">☰</button>
           </div>
         </div>
       </div>
@@ -48,6 +50,16 @@ class Header {
         window.router.navigate(href);
       }
     });
+
+    // Mobile menu toggle
+    const mobileToggle = document.getElementById('mobile-menu-toggle');
+    const nav = document.querySelector('.nav');
+    
+    if (mobileToggle && nav) {
+      mobileToggle.addEventListener('click', () => {
+        nav.classList.toggle('mobile-open');
+      });
+    }
   }
 
   updateActive(path) {
