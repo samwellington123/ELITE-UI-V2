@@ -4,8 +4,8 @@
   "description": "Directum Supply Co. - Custom Apparel & Promotional Products",
   "main": "server.js",
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js"
+    "dev": "node ../server.js",
+    "start": "node ../server.js"
   },
   "dependencies": {},
   "devDependencies": {}
